@@ -1,0 +1,15 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'GroupExpense' do
+    pod 'RxSwift', '4.3.1'
+    pod 'RxCocoa', '4.3.1'
+    pod 'RxDataSources', '3.1'
+    pod 'RealmSwift', '3.13.1'
+    pod 'TextFieldEffects'
+end	
+
+target 'GroupExpenseTests' do
+    inherit! :search_paths
+    # Pods for testing
+end
