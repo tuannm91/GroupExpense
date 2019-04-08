@@ -7,6 +7,7 @@ target 'GroupExpense' do
     pod 'RxDataSources', '3.1'
     pod 'RealmSwift', '3.13.1'
     pod 'TextFieldEffects'
+    pod 'Hero'
 end	
 
 target 'GroupExpenseTests' do
