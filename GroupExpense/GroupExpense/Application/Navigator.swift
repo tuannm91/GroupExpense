@@ -19,6 +19,7 @@ class Navigator: NSObject {
     // MARK: - segues list, all app scenes
     enum Scene {
         case groups(viewModel: GroupsViewModel)
+        case createGroup(viewModel: CreateGroupViewModel)
     }
     
     enum Transition {
@@ -36,7 +37,12 @@ class Navigator: NSObject {
         case .groups(let viewModel):
             let groupsVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "GroupsViewController") as! GroupsViewController
             groupsVC.viewModel = viewModel
-            return groupsVC
+            return UINavigationController(rootViewController: groupsVC)
+        
+        case .createGroup(let viewModel) :
+            let createGroupVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "CreateGroupViewController") as! CreateGroupViewController
+            createGroupVC.viewModel = viewModel
+            return createGroupVC
         }
     }
     

@@ -14,7 +14,7 @@ final class Group: Object {
     @objc dynamic var id = UUID().uuidString
     @objc dynamic var name = ""
     @objc dynamic var groupDescription = ""
-    @objc dynamic var createDate: Date?
+    @objc dynamic var createDate: Date = Date()
     let participants = List<Participant>()
     let expenses = List<Expense>()
     

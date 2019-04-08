@@ -7,7 +7,25 @@
 //
 
 import Foundation
+import RxSwift
+import RxCocoa
 
 class GroupCellViewModel {
+    
+    let title: Driver<String>
+    let detail: Driver<String>
+    let group: Group
+    
+    init(with group: Group) {
+        self.group = group
+        title = Driver.just(group.name)
+        detail = Driver.just(group.groupDescription)
+    }
+}
 
+
+extension GroupCellViewModel: Equatable {
+    static func == (lhs: GroupCellViewModel, rhs: GroupCellViewModel) -> Bool {
+        return lhs.group == rhs.group
+    }
 }

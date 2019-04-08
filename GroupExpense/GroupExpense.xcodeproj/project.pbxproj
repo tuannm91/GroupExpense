@@ -31,6 +31,22 @@
 		CBE416EA225AD4900027CF97 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE416E8225AD4900027CF97 /* Navigator.swift */; };
 		CBE416EC225ADB800027CF97 /* GroupCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE416EB225ADB800027CF97 /* GroupCellViewModel.swift */; };
 		CBE416ED225ADB800027CF97 /* GroupCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE416EB225ADB800027CF97 /* GroupCellViewModel.swift */; };
+		CBE416F3225B85FE0027CF97 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE416F1225B85FE0027CF97 /* GroupTableViewCell.swift */; };
+		CBE416F4225B85FE0027CF97 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE416F1225B85FE0027CF97 /* GroupTableViewCell.swift */; };
+		CBE416F5225B85FE0027CF97 /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE416F2225B85FE0027CF97 /* GroupTableViewCell.xib */; };
+		CBE416F6225B85FE0027CF97 /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE416F2225B85FE0027CF97 /* GroupTableViewCell.xib */; };
+		CBE416F9225B8AF00027CF97 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE416F8225B8AF00027CF97 /* DBManager.swift */; };
+		CBE416FA225B8AF00027CF97 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE416F8225B8AF00027CF97 /* DBManager.swift */; };
+		CBE416FF225B9D180027CF97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE416FE225B9D180027CF97 /* Constants.swift */; };
+		CBE41700225B9D180027CF97 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE416FE225B9D180027CF97 /* Constants.swift */; };
+		CBE41703225B9D6D0027CF97 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41702225B9D6D0027CF97 /* UIColorExtensions.swift */; };
+		CBE41704225B9D6D0027CF97 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41702225B9D6D0027CF97 /* UIColorExtensions.swift */; };
+		CBE41707225B9F490027CF97 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41706225B9F490027CF97 /* CreateGroupViewController.swift */; };
+		CBE41708225B9F490027CF97 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41706225B9F490027CF97 /* CreateGroupViewController.swift */; };
+		CBE4170A225BA2040027CF97 /* CreateGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41709225BA2040027CF97 /* CreateGroupViewModel.swift */; };
+		CBE4170B225BA2040027CF97 /* CreateGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41709225BA2040027CF97 /* CreateGroupViewModel.swift */; };
+		CBE41710225BACB60027CF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4170F225BACB60027CF97 /* ViewController.swift */; };
+		CBE41711225BACB60027CF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4170F225BACB60027CF97 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +83,14 @@
 		CBE416E5225AD4540027CF97 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		CBE416E8225AD4900027CF97 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		CBE416EB225ADB800027CF97 /* GroupCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCellViewModel.swift; sourceTree = "<group>"; };
+		CBE416F1225B85FE0027CF97 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		CBE416F2225B85FE0027CF97 /* GroupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
+		CBE416F8225B8AF00027CF97 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		CBE416FE225B9D180027CF97 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CBE41702225B9D6D0027CF97 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		CBE41706225B9F490027CF97 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		CBE41709225BA2040027CF97 /* CreateGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewModel.swift; sourceTree = "<group>"; };
+		CBE4170F225BACB60027CF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE1E498C379D7EBC3B91F276 /* Pods_GroupExpense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupExpense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,6 +157,7 @@
 		CBE416AD225A9F050027CF97 /* GroupExpense */ = {
 			isa = PBXGroup;
 			children = (
+				CBE41701225B9D580027CF97 /* Extensions */,
 				CBE416E4225AD40E0027CF97 /* Resources */,
 				CBE416DD225AAB810027CF97 /* Common */,
 				CBE416D2225AA35A0027CF97 /* StoryBoards */,
@@ -176,6 +201,7 @@
 		CBE416D0225AA3200027CF97 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CBE41705225B9EEE0027CF97 /* Create group */,
 				CBE416DC225AAA4E0027CF97 /* Groups */,
 			);
 			path = Modules;
@@ -184,6 +210,7 @@
 		CBE416D1225AA32A0027CF97 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				CBE416F8225B8AF00027CF97 /* DBManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -202,6 +229,8 @@
 				CBE416B0225A9F050027CF97 /* GroupsViewController.swift */,
 				CBE416E1225AAC430027CF97 /* GroupsViewModel.swift */,
 				CBE416EB225ADB800027CF97 /* GroupCellViewModel.swift */,
+				CBE416F1225B85FE0027CF97 /* GroupTableViewCell.swift */,
+				CBE416F2225B85FE0027CF97 /* GroupTableViewCell.xib */,
 			);
 			path = Groups;
 			sourceTree = "<group>";
@@ -210,6 +239,8 @@
 			isa = PBXGroup;
 			children = (
 				CBE416DE225AAC150027CF97 /* ViewModelType.swift */,
+				CBE416FE225B9D180027CF97 /* Constants.swift */,
+				CBE4170F225BACB60027CF97 /* ViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -222,6 +253,23 @@
 				CBE416B7225A9F060027CF97 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBE41701225B9D580027CF97 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CBE41702225B9D6D0027CF97 /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CBE41705225B9EEE0027CF97 /* Create group */ = {
+			isa = PBXGroup;
+			children = (
+				CBE41706225B9F490027CF97 /* CreateGroupViewController.swift */,
+				CBE41709225BA2040027CF97 /* CreateGroupViewModel.swift */,
+			);
+			path = "Create group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +359,7 @@
 				CBE416B9225A9F060027CF97 /* LaunchScreen.storyboard in Resources */,
 				CBE416B6225A9F060027CF97 /* Assets.xcassets in Resources */,
 				CBE416B4225A9F050027CF97 /* Main.storyboard in Resources */,
+				CBE416F5225B85FE0027CF97 /* GroupTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE416F6225B85FE0027CF97 /* GroupTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,11 +462,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE416E6225AD4540027CF97 /* Application.swift in Sources */,
+				CBE41703225B9D6D0027CF97 /* UIColorExtensions.swift in Sources */,
+				CBE4170A225BA2040027CF97 /* CreateGroupViewModel.swift in Sources */,
 				CBE416D4225AA3F50027CF97 /* Group.swift in Sources */,
 				CBE416E9225AD4900027CF97 /* Navigator.swift in Sources */,
 				CBE416E2225AAC430027CF97 /* GroupsViewModel.swift in Sources */,
+				CBE41707225B9F490027CF97 /* CreateGroupViewController.swift in Sources */,
+				CBE416F3225B85FE0027CF97 /* GroupTableViewCell.swift in Sources */,
 				CBE416B1225A9F050027CF97 /* GroupsViewController.swift in Sources */,
+				CBE41710225BACB60027CF97 /* ViewController.swift in Sources */,
 				CBE416DF225AAC150027CF97 /* ViewModelType.swift in Sources */,
+				CBE416FF225B9D180027CF97 /* Constants.swift in Sources */,
+				CBE416F9225B8AF00027CF97 /* DBManager.swift in Sources */,
 				CBE416EC225ADB800027CF97 /* GroupCellViewModel.swift in Sources */,
 				CBE416AF225A9F050027CF97 /* AppDelegate.swift in Sources */,
 				CBE416D7225AA4150027CF97 /* Participant.swift in Sources */,
@@ -430,13 +487,20 @@
 			files = (
 				CBE416E3225AAC430027CF97 /* GroupsViewModel.swift in Sources */,
 				CBE416E7225AD4540027CF97 /* Application.swift in Sources */,
+				CBE41704225B9D6D0027CF97 /* UIColorExtensions.swift in Sources */,
 				CBE416DB225AA4660027CF97 /* Expense.swift in Sources */,
 				CBE416C4225A9F060027CF97 /* GroupExpenseTests.swift in Sources */,
 				CBE416ED225ADB800027CF97 /* GroupCellViewModel.swift in Sources */,
 				CBE416D5225AA3F50027CF97 /* Group.swift in Sources */,
 				CBE416EA225AD4900027CF97 /* Navigator.swift in Sources */,
+				CBE41708225B9F490027CF97 /* CreateGroupViewController.swift in Sources */,
 				CBE416E0225AAC150027CF97 /* ViewModelType.swift in Sources */,
 				CBE416D8225AA4150027CF97 /* Participant.swift in Sources */,
+				CBE416F4225B85FE0027CF97 /* GroupTableViewCell.swift in Sources */,
+				CBE416FA225B8AF00027CF97 /* DBManager.swift in Sources */,
+				CBE41700225B9D180027CF97 /* Constants.swift in Sources */,
+				CBE41711225BACB60027CF97 /* ViewController.swift in Sources */,
+				CBE4170B225BA2040027CF97 /* CreateGroupViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
