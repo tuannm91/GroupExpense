@@ -43,8 +43,8 @@ class GroupsViewController: ViewController {
                 cell.bind(to: viewModel)
             }.disposed(by: disposeBag)
         
-        output.selection.drive(onNext: { text in
-            print("===> \(text)")
+        output.selection.drive(onNext: { [weak self] viewModel in
+            self?.navigator.show(segue: .groupDetail(viewModel: viewModel) , sender: self, transition: .navigation(type: .fade))
         }).disposed(by: disposeBag)
         
         addButton.rx.tap.asObservable().subscribe(onNext: { [weak self] () in

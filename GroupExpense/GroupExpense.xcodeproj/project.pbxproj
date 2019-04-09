@@ -47,6 +47,10 @@
 		CBE4170B225BA2040027CF97 /* CreateGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41709225BA2040027CF97 /* CreateGroupViewModel.swift */; };
 		CBE41710225BACB60027CF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4170F225BACB60027CF97 /* ViewController.swift */; };
 		CBE41711225BACB60027CF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE4170F225BACB60027CF97 /* ViewController.swift */; };
+		CBE41714225BD75A0027CF97 /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41713225BD75A0027CF97 /* GroupDetailViewController.swift */; };
+		CBE41715225BD75A0027CF97 /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41713225BD75A0027CF97 /* GroupDetailViewController.swift */; };
+		CBE41717225BD77E0027CF97 /* GroupDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41716225BD77E0027CF97 /* GroupDetailViewModel.swift */; };
+		CBE41718225BD77E0027CF97 /* GroupDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE41716225BD77E0027CF97 /* GroupDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +95,8 @@
 		CBE41706225B9F490027CF97 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
 		CBE41709225BA2040027CF97 /* CreateGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewModel.swift; sourceTree = "<group>"; };
 		CBE4170F225BACB60027CF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBE41713225BD75A0027CF97 /* GroupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailViewController.swift; sourceTree = "<group>"; };
+		CBE41716225BD77E0027CF97 /* GroupDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailViewModel.swift; sourceTree = "<group>"; };
 		EE1E498C379D7EBC3B91F276 /* Pods_GroupExpense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupExpense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -201,6 +207,7 @@
 		CBE416D0225AA3200027CF97 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CBE41712225BD7360027CF97 /* Group detail */,
 				CBE41705225B9EEE0027CF97 /* Create group */,
 				CBE416DC225AAA4E0027CF97 /* Groups */,
 			);
@@ -270,6 +277,15 @@
 				CBE41709225BA2040027CF97 /* CreateGroupViewModel.swift */,
 			);
 			path = "Create group";
+			sourceTree = "<group>";
+		};
+		CBE41712225BD7360027CF97 /* Group detail */ = {
+			isa = PBXGroup;
+			children = (
+				CBE41713225BD75A0027CF97 /* GroupDetailViewController.swift */,
+				CBE41716225BD77E0027CF97 /* GroupDetailViewModel.swift */,
+			);
+			path = "Group detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +480,8 @@
 				CBE416E6225AD4540027CF97 /* Application.swift in Sources */,
 				CBE41703225B9D6D0027CF97 /* UIColorExtensions.swift in Sources */,
 				CBE4170A225BA2040027CF97 /* CreateGroupViewModel.swift in Sources */,
+				CBE41717225BD77E0027CF97 /* GroupDetailViewModel.swift in Sources */,
+				CBE41714225BD75A0027CF97 /* GroupDetailViewController.swift in Sources */,
 				CBE416D4225AA3F50027CF97 /* Group.swift in Sources */,
 				CBE416E9225AD4900027CF97 /* Navigator.swift in Sources */,
 				CBE416E2225AAC430027CF97 /* GroupsViewModel.swift in Sources */,
@@ -487,6 +505,7 @@
 			files = (
 				CBE416E3225AAC430027CF97 /* GroupsViewModel.swift in Sources */,
 				CBE416E7225AD4540027CF97 /* Application.swift in Sources */,
+				CBE41715225BD75A0027CF97 /* GroupDetailViewController.swift in Sources */,
 				CBE41704225B9D6D0027CF97 /* UIColorExtensions.swift in Sources */,
 				CBE416DB225AA4660027CF97 /* Expense.swift in Sources */,
 				CBE416C4225A9F060027CF97 /* GroupExpenseTests.swift in Sources */,
@@ -501,6 +520,7 @@
 				CBE41700225B9D180027CF97 /* Constants.swift in Sources */,
 				CBE41711225BACB60027CF97 /* ViewController.swift in Sources */,
 				CBE4170B225BA2040027CF97 /* CreateGroupViewModel.swift in Sources */,
+				CBE41718225BD77E0027CF97 /* GroupDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

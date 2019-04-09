@@ -20,7 +20,7 @@ class GroupsViewModel: ViewModelType {
     
     struct Output {
         let items: BehaviorRelay<[GroupCellViewModel]>
-        let selection: Driver<String>
+        let selection: Driver<GroupDetailViewModel>
     }
     
     func transform(input: Input) -> Output {
@@ -38,7 +38,7 @@ class GroupsViewModel: ViewModelType {
         }).disposed(by: disposeBag)
         
         let groupDetails = input.selection.map {_ in 
-            return ""
+            return GroupDetailViewModel()
         }
         
         return Output(items: elements, selection: groupDetails)

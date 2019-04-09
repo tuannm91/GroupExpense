@@ -116,6 +116,21 @@
             </objects>
             <point key="canvasLocation" x="1964" y="686"/>
         </scene>
+        <!--Group Detail View Controller-->
+        <scene sceneID="EPZ-J3-7ZY">
+            <objects>
+                <viewController storyboardIdentifier="GroupDetailViewController" id="j62-OC-2UL" customClass="GroupDetailViewController" customModule="GroupExpense" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NC0-DK-s1D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0Ks-Un-ojw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZbH-UO-RRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2823" y="686"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ic_add" width="20" height="20"/>
